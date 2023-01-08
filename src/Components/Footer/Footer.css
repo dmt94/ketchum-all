@@ -1,0 +1,12 @@
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
+footer {
+  background-color: #2152FF;
+}
+footer p {
+  color: rgb(255, 251, 243);
+  padding: 8px;
+}

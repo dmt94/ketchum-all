@@ -1,0 +1,6 @@
+.avatar-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2px;
+  grid-auto-rows: minmax(120px, auto);
+}

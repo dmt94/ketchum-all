@@ -1,0 +1,392 @@
+/* OUTER & MAIN DIV */
+
+.outer-div, .main-div, .left, .buddies {
+  display: flex;
+}
+
+.outer-div {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.main-div {
+  justify-content: space-between;
+  margin-top: 50px;
+}
+/* TOP */
+.top {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 100%;
+}
+
+.top h4 {
+  color: black;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.top .h4-red {
+  color: red;
+}
+/* LEFT */
+.left {
+  margin-right: 40px;
+}
+
+.left-bg, .inside-left-bg {
+  flex-direction: column;
+  width: 180px;
+  height: 300px;
+  background-color: #ffa217;
+  outline: 2px solid black;
+}
+
+.left-bg .inside-left-bg {
+  background-color: #FFCE22;
+  width: 180px;
+  height: 300px;
+  transform: translate(-10px, -10px);
+}
+
+.inside-left-bg, .middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inside-left-bg p {
+  font-size: 12px;
+  letter-spacing: 5px;
+  margin: 20px;
+}
+
+.inside-left-bg:hover {
+  cursor: pointer;
+  transform: translate(0px, -0px);
+  background-color: #ff6422;
+  transition: all 300ms linear;
+}
+
+.left-img {
+  width: 150px;
+}
+
+.homepage-icon {
+  width: 60px;
+  z-index: 2;
+}
+
+.gotcha {
+  width: 80px;
+  transform: translate(0px, -18px);
+}
+
+/* CENTER */
+
+.middle {
+  flex-direction: column;
+}
+
+.middle-bg, .middle-badge {
+  width: 320px;
+  height: 130px;
+  background-color: #9DB3FF;
+  outline: 2px solid black;
+}
+
+.middle-badge {
+  background-color: rgb(255, 255, 246);
+  transform: translate(-10px, -10px);
+  display: flex;
+  flex-direction: column;
+}
+.middle-badge:hover {
+  cursor: pointer;
+  background-color: rgba(134, 255, 253, 0.957);
+  transform: translate(0px, 0px);
+  transition: all 300ms linear;
+}
+
+.middle-badge h4 {
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+.middle-bg-inside {
+  display: flex;
+  justify-content: space-around;
+}
+
+.badge-bg {
+  width: 80px;
+  height: 80px;
+  background-color: #ffa217;
+  border-radius: 100px;
+  outline: 1.5px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.badge-bg:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: all 100ms linear;
+  transform: translate(0px, 2px);
+}
+
+.badge-1 {
+  background-color: #3C72FF;
+}
+.badge-1:hover, .badge-2:hover, .badge-3:hover {
+  transition: all 100ms linear;
+}
+.badge-1:hover {
+  background-color: #0a50ff;
+}
+.badge-2 {
+  background-color: #FFF742;
+}
+.badge-2:hover {
+  background-color: #ff8400;
+}
+.badge-3 {
+  background-color: #FB4F4F;
+}
+.badge-3:hover {
+  background-color: #f8fb4f;
+}
+
+.badge-icon {
+  width: 40px;
+}
+
+/* START */
+
+.start {
+  margin-top: 20px;
+  display: flex;
+}
+
+.start div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+  /* background-color: #ffd726; */
+}
+
+.start div h2 {
+  font-size: 30px;
+  margin-bottom: 4px;
+  letter-spacing: 10px;
+}
+
+.start div p {
+  font-size: 9px;
+  letter-spacing: 10px;
+}
+
+.triangle {
+  width: 60px;
+}
+
+.start-button:hover {
+  color: rgb(29, 129, 22);
+  cursor: pointer;
+}
+
+.buddies{
+  margin-top: 10px;
+}
+
+.pokemon-square, .inside-square {
+  width: 90px;
+  height: 80px;
+  background-color: #3C72FF;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.inside-square {
+  background-color: #9DB3FF;
+  transform: translate(-20px, -20px);
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.inside-square:hover {
+  cursor: pointer;
+  transition: all 400ms linear;
+  transform: translate(-12px, -12px);
+  box-shadow: rgba(33, 35, 38, 0.565) 0px 10px 10px -10px;
+}
+
+.inside-square:hover > .round {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  transition: all 400ms linear;
+  background-color: #272b28;
+}
+
+.buddy-icon {
+  width: 75px;
+}
+
+.squirtle-ps {
+  background-color: #09DF60;
+}
+.squirtle-is {
+  background-color: #19DCF7;
+}
+.charmander-ps {
+  background-color: #70BAFF;
+}
+.charmander-is {
+  background-color: #F77819;
+}
+.bulb-ps {
+  background-color: #FF612F;
+}
+.bulb-is {
+  background-color: #4EF632;
+}
+.round {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  background-color: #ffffa5;
+  outline: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  transform: translate(0px, -8px);
+}
+
+.middle-bg h5 {
+  letter-spacing: 2px;
+}
+
+
+/* RIGHT */
+
+.right {
+  display: flex;
+  margin-left: 30px;
+}
+
+.pokemon-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF2D2D;
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 80px;
+  padding: 10px 0 10px 0px;
+  box-shadow: rgba(0, 0, 0, 0.493) 1.95px 1.95px 2.6px;
+  z-index: 3;
+}
+.banner-battle {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+.pokemon-banner .homepage-icon {
+  margin: 10px;
+}
+
+/* gym leaders */
+.gym-leaders {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-square-gl, .inner-square-gl {
+  background-color: #e5f4e9;
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  margin: 20px 0 20px 0;
+}
+
+.inner-square-gl {
+  margin: 0px;
+  transform: translate(-10px, -8px);
+}
+
+.gl-round {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: #f8fb4f;
+  border: 2px solid black;
+  transform: translate(10px, 0px);
+}
+
+.name-label-div {
+  position: absolute;
+  background-color: #fffbfbce;
+  border: 2px solid black;
+  transform: translate(0px, 0px);
+  width: 100%;
+}
+
+.name-label-div p {
+  font-size: 10px;
+  padding: 2px;
+}
+
+.gl-avatar {
+  width: 90px;
+}
+
+.gl-avatar:hover {
+  cursor: pointer;
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+.elesa {
+  background-color: #49fff9;
+}
+
+.elesa .inner-square-gl {
+  background-color: #5edfff;
+}
+
+.elesa .inner-square-gl .gl-round {
+  background-color: #adff32;
+}
+
+.lance {
+  background-color: #2c2f2f;
+}
+
+.lance .inner-square-gl {
+  background-color: #815eff;
+}
+
+.lance .inner-square-gl .gl-round {
+  background-color: #466cd4;
+}
+
+.clair {
+  background-color: #a605d2;
+}
+
+.clair .inner-square-gl {
+  background-color: #ffe926;
+}
+
+.clair .inner-square-gl .gl-round {
+  background-color: #ff2b2b;
+}

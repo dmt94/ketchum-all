@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #2152FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar p {
+  color: white;
+  padding: 10px;
+  letter-spacing: 5px;
+}
+
+.start-end {
+  font-size: 18px;
+}
+
+.start-end:hover {
+  color: rgb(255, 251, 0);
+  cursor: pointer;
+}
